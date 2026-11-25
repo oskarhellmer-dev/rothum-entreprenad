@@ -555,6 +555,15 @@ a {
   align-items: center;
 }
 
+.real-work-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.real-work-stack .spread-media img {
+  aspect-ratio: 16 / 10;
+}
+
 .spread-reverse {
   grid-template-columns: 1.08fr 1fr;
 }
